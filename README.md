@@ -4,7 +4,8 @@
 
 ## How to run the Jupyter Notebook Examples
 
-** Prerequisites
+** Prerequisites **
+
 You need an up-to-date version on miniconda3 and git. 
 
 If you do not have miniconda3 and git installed, follow the directions in the ["Ten Simple Steps to setup Python 3 and Jupyter Lab" guide](https://github.com/pwrose/python-jupyter).

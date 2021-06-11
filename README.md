@@ -2,7 +2,13 @@
 
 ** UNDER CONSTRUCTION **
 
-## How to run the Jupyter Notebook Examples
+## How to run the Jupyter Notebook examples in a web browser
+
+The MyBinder.org service let's you run the notebooks in this repository from your web browser by simply clicking on the launch link (the launch may take a couple of minutes).
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sdsc-hpc-training-org/notebooks-sharing/main?urlpath=lab)
+
+## How to run the Jupyter Notebook examples on your own computer
 
 ** Prerequisites **
 

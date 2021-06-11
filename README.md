@@ -13,7 +13,7 @@ In the top-right corner of this GitHub page, click ```Fork```.
 Then, download all materials to your laptop by cloning your copy of the repository, where ```your-user-name``` is your GitHub user name. To clone the repository from a Terminal window or the Anaconda prompt (Windows), run:
 
 ```
-git clone https://github.com/sdsc-hpc-training-org/notebooks-sharing.git
+git clone https://github.com/your-user-name/notebooks-sharing.git
 cd notebooks-sharing
 ```
 

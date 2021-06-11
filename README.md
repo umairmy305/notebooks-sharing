@@ -8,7 +8,7 @@
 
 You need an up-to-date version on miniconda3 and git. 
 
-If you do not have miniconda3 and git installed, follow the directions in the ["Ten Simple Steps to setup Python 3 and Jupyter Lab" guide](https://github.com/pwrose/python-jupyter).
+If you do not have miniconda3 and git installed, follow the directions in the "Ten Simple Steps to setup Python 3 and Jupyter Lab" [guide](https://github.com/pwrose/python-jupyter#ten-simple-steps-to-setup-python-3-and-jupyter-lab).
 
 **1. Fork this project**
 

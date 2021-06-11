@@ -6,10 +6,15 @@
 
 ** Prerequisites **
 
-You need an up-to-date version on miniconda3 and git. 
+You need an up-to-date version of miniconda3 and git. 
 
-If you do not have miniconda3 and git installed, follow the directions in the "Ten Simple Steps to setup Python 3 and Jupyter Lab" [guide](https://github.com/pwrose/python-jupyter#ten-simple-steps-to-setup-python-3-and-jupyter-lab).
+If you do not have miniconda3 installed, follow the directions in the "Ten Simple Steps to setup Python 3 and Jupyter Lab" [guide](https://github.com/pwrose/python-jupyter#ten-simple-steps-to-setup-python-3-and-jupyter-lab).
 
+Once miniconda3 is installed, you can install git with the following command:
+```
+conda install -c conda-forge git
+```
+ 
 **1. Fork this project**
 
 A [fork](https://help.github.com/en/articles/fork-a-repo) is a copy of a repository in your GitHub account. Forking a repository allows you to freely experiment with changes without affecting the original project.

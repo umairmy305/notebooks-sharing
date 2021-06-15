@@ -10,7 +10,7 @@ The MyBinder.org service let's you run the notebooks in this repository from you
 
 ## How to run the Jupyter Notebook examples on your own computer
 
-** Prerequisites **
+**Prerequisites**
 
 You need an up-to-date version of miniconda3 and git. 
 
@@ -27,10 +27,10 @@ A [fork](https://help.github.com/en/articles/fork-a-repo) is a copy of a reposit
 
 In the top-right corner of this GitHub page, click ```Fork```.
 
-Then, download all materials to your laptop by cloning your copy of the repository, where ```your-user-name``` is your GitHub user name. To clone the repository from a Terminal window, run:
+Then, download all materials to your laptop by cloning your copy of the repository, where ```your-github-username``` is your GitHub user name. To clone the repository from a Terminal window, run:
 
 ```
-git clone https://github.com/your-user-name/notebooks-sharing.git
+git clone https://github.com/your-github-username/notebooks-sharing.git
 cd notebooks-sharing
 ```
 
@@ -41,7 +41,6 @@ The file `environment.yml` specifies the Python version and all packages require
 conda env create -f environment.yml
 ```
 
-Activate the conda environment
 ```
 conda activate notebooks-sharing
 ```
@@ -51,16 +50,17 @@ conda activate notebooks-sharing
 jupyter lab
 ```
 
-To shutdown Jupyter Lab, go to ```File -> Shut Down```
+To shutdown Jupyter Lab, go to `File -> Shut Down`
 
-**4. Deactivate the conda environment
+**4. Deactivate the conda environment**
+
 ```
 conda deactivate
 ```
 
 ### Removing the conda environment
 
-If you want to remove the conda environment, type
+To remove the conda environment, type
 ```
 conda env remove -n notebooks-sharing
 ```

@@ -2,19 +2,41 @@
 
 ** UNDER CONSTRUCTION **
 
-## How to run the Jupyter Notebook examples in a web browser
+## Run the Jupyter Notebooks in your Web Browser
 
 The MyBinder.org service let's you run the notebooks in this repository from your web browser by simply clicking on the launch link (the launch may take a couple of minutes).
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sdsc-hpc-training-org/notebooks-sharing/main?urlpath=lab)
 
-## How to run the Jupyter Notebook examples on your own computer
+## Run the Jupyter Notebooks from the Expanse Portal
+
+To run the notebooks on the Expanse portal, follow these [steps](docs/Expanse_portal.md).
+
+## Run the Jupyter Notebooks in an Expanse Terminal
+
+Login to Expanse with your Expanse username (note, this username may be different from your XSEDE username)
+
+```
+ssh <username>@login.expanse.sdsc.edu
+```
+
+Once logged in, run the galyleo script to launch Jupyter. Note, you need to specify a valid account number in the galyleo command line arguments.
+
+```
+export PATH="/cm/shared/apps/sdsc/galyleo:${PATH}"
+
+galyleo.sh launch --account <account_number> --partition 'shared' --cpus-per-task 1 --memory-per-node 4 --time-limit 00:30:00 --jupyter 'notebook' --notebook-dir "/home/${USER}" --env-modules 'cpu,gpu,anaconda3' --conda-env 'base' --quiet
+```
+
+After you run this command, a URL is displayed. Copy this URL and paste it into a web browser to launch your interactive session.
+
+## Run the Jupyter Notebooks on your own Computer
 
 **Prerequisites**
 
 You need an up-to-date version of miniconda3 and git. 
 
-If you do not have miniconda3 installed, follow the directions in the "Ten Simple Steps to setup Python 3 and Jupyter Lab" [guide](https://github.com/pwrose/python-jupyter#ten-simple-steps-to-setup-python-3-and-jupyter-lab).
+If you do not have miniconda3 installed, follow the directions in the "Eight Simple Steps to setup Python 3 and Jupyter Lab" [guide](https://github.com/pwrose/python-jupyter#eight-simple-steps-to-setup-python-3-and-jupyter-lab).
 
 Once miniconda3 is installed, you can install git with the following command:
 ```

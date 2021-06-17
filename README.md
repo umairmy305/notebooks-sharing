@@ -20,14 +20,16 @@ Login to Expanse with your Expanse username (note, this username may be differen
 ssh <username>@login.expanse.sdsc.edu
 ```
 
-Once logged in, run the galyleo script to launch Jupyter. Note, you need to specify a valid account number in the galyleo command line arguments.
+Use the galyleo script to launch Jupyter on the Expanse command line. First, we set the path to the galyleo script.
 
 ```
 export PATH="/cm/shared/apps/sdsc/galyleo:${PATH}"
 ```
 
+Run the galyleo script to launch Jupyter. Note, enter your Expanse project allocation account number with the `--account option`. You can look up your allocation information from the Expanse Portal Dashboad under the Clusters->Allocation and Usage Information tab.
+
 ```
-galyleo.sh launch --account <account_number> --partition 'shared' --cpus-per-task 1 --memory-per-node 4 --time-limit 00:30:00 --jupyter 'notebook' --notebook-dir "/home/${USER}" --conda-env 'notebooks-sharing' --quiet
+galyleo.sh launch --account <account_number> --partition 'shared' --cpus-per-task 1 --memory-per-node 4 --time-limit 00:30:00 --jupyter 'lab' --notebook-dir "/home/${USER}" --conda-env 'notebooks-sharing' --quiet
 ```
 
 After you run this command, a URL is displayed. Copy this URL and paste it into a web browser to launch your interactive session.

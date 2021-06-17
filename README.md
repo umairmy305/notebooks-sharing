@@ -24,8 +24,10 @@ Once logged in, run the galyleo script to launch Jupyter. Note, you need to spec
 
 ```
 export PATH="/cm/shared/apps/sdsc/galyleo:${PATH}"
+```
 
-galyleo.sh launch --account <account_number> --partition 'shared' --cpus-per-task 1 --memory-per-node 4 --time-limit 00:30:00 --jupyter 'notebook' --notebook-dir "/home/${USER}" --env-modules 'cpu,gpu,anaconda3' --conda-env 'base' --quiet
+```
+galyleo.sh launch --account <account_number> --partition 'shared' --cpus-per-task 1 --memory-per-node 4 --time-limit 00:30:00 --jupyter 'notebook' --notebook-dir "/home/${USER}" --conda-env 'notebooks-sharing' --quiet
 ```
 
 After you run this command, a URL is displayed. Copy this URL and paste it into a web browser to launch your interactive session.

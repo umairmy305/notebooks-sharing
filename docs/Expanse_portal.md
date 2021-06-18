@@ -14,7 +14,7 @@ Use your XSEDE username (trainXX) and password to login to the portal.
 
 **3. Specify your Job Parameters**
 
-Fill in the following parameters in the jobs parameter page. Enter a valid XSEDE account number where your jobs are charged to. If you have a reservation number, enter it as well, otherwise, leave the reservation field empty. Then click submit.
+Fill in the following parameters in the jobs parameter page. Be careful use exactly the same options as shown in the image below.  If you have a reservation number, enter it as well, otherwise, leave the reservation field empty. Double-check all options before you click the submit button.
 
 <p align="center">
 <img src="job_parameters.png", width="80%">

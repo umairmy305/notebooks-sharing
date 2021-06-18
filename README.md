@@ -67,12 +67,12 @@ First, create a local copy of the training repository by cloning it with git.
 git clone https://github.com/sdsc-hpc-training-org/notebooks-sharing.git
 ```
 
-Then, create a Conda environment that contains specific versions of all the packages needed to reproduce the results of this study. Note, the `&` at the end. This will run the command in the background. The nohup command will keep the installation going, even if you logout or get disconnected. **Note, this step may run for an hour a longer.**
+Then, create a Conda environment that contains specific versions of all the packages needed to reproduce the results of this study. Note, the `&` at the end. This will run the command in the background. The nohup command will keep the installation going, even if you logout or get disconnected. **Note, this step may run for an hour or longer.**
 ```
 nohup conda env create -f notebooks-sharing/environment.yml > conda-notebook-env-install.log &
 ```
 
-Next, check if the `notebooks-sharing` environment has been created.
+When the installation is completed, check if the `notebooks-sharing` environment has been created.
 ```
 conda env list
 ```

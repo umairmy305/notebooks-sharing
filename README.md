@@ -42,12 +42,12 @@ Run the Miniconda3 installation script in batch mode.
 bash Miniconda3-latest-Linux-x86_64.sh -b -f
 ```
 
-Activate conda
+Activate conda.
 ```
 source miniconda3/bin/activate
 ```
 
-Run the conda init script. It will setup your .bashrc file for conda.
+Run the conda init script. It will configure your .bashrc file for conda.
 ```
 conda init
 ```

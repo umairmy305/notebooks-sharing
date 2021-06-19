@@ -49,7 +49,7 @@ source miniconda3/bin/activate
 
 Run the conda init script. It will setup your .bashrc file for conda.
 ```
-source /home/xdtr99/miniconda3/etc/profile.d/conda.sh
+conda init
 ```
 
 Turn off the base environment which is otherwise activated by default.

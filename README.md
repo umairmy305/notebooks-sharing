@@ -42,17 +42,23 @@ Run the Miniconda3 installation script in batch mode.
 bash Miniconda3-latest-Linux-x86_64.sh -b -f
 ```
 
-Then, add the following line at the bottom of your .bashrc file. **Important, replace xdtr99 with your Expanse username!**
+Activate conda
+```
+source miniconda3/bin/activate
+```
+
+Run the conda init script. It will setup your .bashrc file for conda.
 ```
 source /home/xdtr99/miniconda3/etc/profile.d/conda.sh
 ```
 
-You can use the `nano` editor to edit your .bashrc file, e.g. `nano .bashrc`.
+Turn off the base environment which is otherwise activated by default.
+```
+conda config --set auto_activate_base false
+```
 
-To make the changes to your .bashrc take effect, run the following command.
-```
-source ~/.bashrc
-```
+**Log out of your account and log back in** to make the changes to your .bashrc file take effect.
+
 
 Test the installation.
 ```

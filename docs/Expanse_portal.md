@@ -17,7 +17,7 @@ Use your XSEDE username (trainXX) and password to login to the portal.
 Fill in the following parameters in the jobs parameter page. Be careful use exactly the same options as shown in the image below.  If you have a reservation number, enter it as well, otherwise, leave the reservation field empty. Double-check all options before you click the submit button.
 
 <p align="center">
-<img src="job_parameters.png", width="80%">
+<img src="job_parameters_ciml_day3.png", width="80%">
 </p>
 
 **4. Monitor the Job Status**

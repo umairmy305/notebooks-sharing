@@ -124,7 +124,7 @@ export PATH="/cm/shared/apps/sdsc/galyleo:${PATH}"
 Run the galyleo script to launch Jupyter. We already specified your Expanse project allocation account number (sds184) with the `--account` option. In general, you can look up your allocation information from the [Expanse Portal Dashboad](https://portal.expanse.sdsc.edu) under the Clusters->Allocation and Usage Information tab.
 
 ```
-galyleo.sh launch --account sds184 --partition 'shared' --cpus-per-task 1 --memory-per-node 4 --time-limit 00:30:00 --jupyter 'lab' --notebook-dir "/home/${USER}" --conda-env 'notebooks-sharing'
+galyleo.sh launch --account sds184 --reservation ‘ciml-day3’ --partition 'shared' --cpus-per-task 1 --memory-per-node 4 --time-limit 00:30:00 --jupyter 'lab' --notebook-dir "/home/${USER}" --conda-env 'notebooks-sharing'
 ```
 
 After you run this command, a URL is displayed. Copy this URL and paste it into a web browser to launch your interactive session.

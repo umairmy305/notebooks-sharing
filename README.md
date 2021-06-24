@@ -16,7 +16,7 @@ Your task is to insert launch links for both cases.
 
 **Insert a MyBinder.org launch link for this repository.**
 
-*launch link goes here*
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/umairmy305/notebooks-sharing/HEAD)?urlpath=lab
  
 **Insert a MyBinder.org launch link for the [4-Predict.ipynb](notebooks/4-Predict.ipynb) notebook.**
 

@@ -20,7 +20,7 @@ Your task is to insert launch links for both cases.
  
 **Insert a MyBinder.org launch link for the [4-Predict.ipynb](notebooks/4-Predict.ipynb) notebook.**
 
-*launch link goes here*
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/umairmy305/notebooks-sharing/HEAD?filepath=https%3A%2F%2Fgithub.com%2Fumairmy305%2Fnotebooks-sharing%2Fblob%2Fmain%2Fnotebooks%2F4-Predict.ipynb)
 
 
 ## Setup for Expanse
